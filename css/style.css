@@ -199,48 +199,6 @@
     font-weight: bold;
 }
 
-/* PROJECTS PAGE */
-
-.projects-page {
-    background-color: #909090;
-}
-
-.projects-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.pr-container {
-    width: fit-content;
-    height: fit-content;
-    color: black;
-    border-radius: 8px;
-    background-color: #d3d3d3;
-    padding-bottom: 15px;
-}
-
-.pr-container > h4 {
-    padding-top: 15px;
-    text-align: center;
-    font-family: "Montserrat";
-    font-size: 20px;
-    margin-bottom: 15px;
-}
-
-.pr-list {
-    list-style: none;
-}
-
-.pr-container > p{
-    font-family: "Montserrat";
-    text-align:center;
-    width: 620px;
-    padding-left: 5px;
-    padding-right: 5px;
-    padding-bottom: 30px;
-}
-
 .links {
     display: flex;
     padding-left: 15px;
@@ -288,4 +246,49 @@
 .github:hover {
     background-color: rgb(0, 247, 255);
     transition: 0.7s ease;
+}
+
+/* PROJECTS PAGE */
+
+.projects-page {
+    background-color: #909090;
+}
+
+.projects-section {
+    padding-left: 45px;
+    padding-bottom: 20px;
+    display: grid;
+    gap: 20px;
+    justify-content: space-between;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.pr-container {
+    width: fit-content;
+    height: fit-content;
+    color: black;
+    border-radius: 8px;
+    background-color: #d3d3d3;
+    padding-bottom: 15px;
+}
+
+.pr-container > h4 {
+    padding-top: 15px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.pr-list {
+    list-style: none;
+}
+
+.pr-container > p{
+    font-family: "Montserrat";
+    text-align:center;
+    width: 620px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 30px;
 }
