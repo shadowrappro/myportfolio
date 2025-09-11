@@ -156,18 +156,6 @@
     transform: rotate(10.5deg);
 }
 
-.skills-paragreff {
-    color: black;
-    z-index: 10;
-    font-family: "Sour Gummy Expanded";
-    font-weight: bold;
-    font-size: 18px;
-    position: absolute;
-    margin-left: 95px;
-    margin-top: 158px;
-    transform: rotate(10deg);
-}
-
 .js-logo {
     position: absolute;
     margin-top: -429px;
@@ -291,4 +279,94 @@
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 30px;
+}
+
+@media (max-width: 1750px) {
+  .branch-icon {
+    margin-right: 338px;
+  }
+}
+
+@media (max-width: 1700px) {
+  .branch-icon {
+    margin-right: 336px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .branch-icon {
+    margin-right: 334px;
+  }
+}
+
+@media (max-width: 1500px) {
+  .branch-icon {
+    margin-right: 331px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .branch-icon {
+    margin-right: 329px;
+  }
+}
+
+@media (max-width: 1390px) {
+  .branch-icon {
+    margin-right: 323px;
+    transform: rotate(9.9deg);
+  }
+}
+
+@media (max-width: 1380px) {
+  .branch-icon {
+    margin-right: 318px;
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 1370px) {
+  .branch-icon {
+    margin-right: 314px;
+    transform: rotate(10deg);
+  }
+
+  .end {
+    margin-left: 200px;
+  }
+}
+
+@media (max-width: 1360px) {
+  .branch-icon {
+    margin-right: 308px;
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 1350px) {
+  .branch-icon {
+    margin-right: 302px;
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 1340px) {
+  .branch-icon {
+    margin-right: 297px;
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 1330px) {
+  .branch-icon {
+    margin-right: 292px;
+    transform: rotate(10deg);
+  }
+}
+
+@media (max-width: 1330px) {
+  .branch-icon {
+    margin-right: 292px;
+    transform: rotate(10deg);
+  }
 }
